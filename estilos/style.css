@@ -26,7 +26,7 @@ section#login {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 16rem;              /* 400px aprox */
+    width: 16rem;
     transform: translate(-50%, -50%);
     border-radius: var(--radius);
     box-shadow: 0px 3px 10px 0px black;
@@ -41,9 +41,9 @@ section#login {
 
 #img {
     display: block;
-    height: 12.5rem;            /* 200px */
+    height: 12.5rem; 
     border-radius: var(--radius) var(--radius) 0 0;
-    background-image: url('/desafios/d016/imagens/metal.jpg');
+    background-image: url('../imagens/metal.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,14 +54,14 @@ header {
 }
 
 header > h1 {
-    padding: 0.625rem;          /* 10px */
+    padding: 0.625rem; 
     color: var(--text-color);
 }
 
 header > p {
     color: var(--text-color);
     text-align: left;
-    font-size: 0.8em;       /* 10px */
+    font-size: 0.8em;
     padding: 0 .4rem .3rem 0.4rem;
 }
 
