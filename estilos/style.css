@@ -49,6 +49,13 @@ section#login {
     background-size: cover;
 }
 
+form {
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    height: 20rem; /* 320px */
+    border-radius: 0 0 var(--radius) var(--radius);
+}
+
 header {
     text-align: center;
 }
@@ -63,13 +70,6 @@ header > p {
     text-align: left;
     font-size: 0.8em;
     padding: 0 .4rem .3rem 0.4rem;
-}
-
-form {
-    background-color: rgb(29, 29, 29);
-    text-align: center;
-    height: 20rem; /* 320px */
-    border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .input-block {
