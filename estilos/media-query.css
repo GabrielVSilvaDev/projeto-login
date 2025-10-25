@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* Typical Devide Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768 até 992
+Desktop: 992px até 1200px
+Telas Grandes: acima de 1200px
+*/
+
+
+
+@media screen and (min-width: 778px) and (max-width: 992px) {
+
+    body {
+        background: linear-gradient(to top,  #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    #img {
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+    }
+
+    form {
+        float: right;
+        width: 70%;
+        height: 100%;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .input-block {
+        width: 96%;
+        margin-left: 10px;
+    }
+
+    .input-block > input {
+        width: 90%;
+    }
+   
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background: linear-gradient(to top,  #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 900px;
+        height: 350px;
+    }
+
+    #img {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0 20px 20px 0;
+    }
+
+    header > p {
+        margin-left: 5px;
+        font-size: 1.05em;
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    form {
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+        margin: auto;
+    }
+
+    .input-block input {
+        width: 90%;
+    }
+
+    .input-block {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    #buttons-block > #enter {
+        width: 95%;
+    }
+
+    a {
+        width: 95%;
+    }
+
+
+
+
+
+
+
+}

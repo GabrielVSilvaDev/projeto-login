@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+:root {
+    --text-color: white;
+    --radius: 1.25rem; /* 20px relativo */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    background-color: #5f2c82;
+    position: relative;
+    font-size: 16px; /* base para tudo */
+}
+
+section#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16rem;              /* 400px aprox */
+    transform: translate(-50%, -50%);
+    border-radius: var(--radius);
+    box-shadow: 0px 3px 10px 0px black;
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    
+    overflow: hidden;
+
+}
+
+#img {
+    display: block;
+    height: 12.5rem;            /* 200px */
+    border-radius: var(--radius) var(--radius) 0 0;
+    background-image: url('/desafios/d016/imagens/metal.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    padding: 0.625rem;          /* 10px */
+    color: var(--text-color);
+}
+
+header > p {
+    color: var(--text-color);
+    text-align: left;
+    font-size: 0.8em;       /* 10px */
+    padding: 0 .4rem .3rem 0.4rem;
+}
+
+form {
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    height: 20rem; /* 320px */
+    border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.input-block {
+    position: relative;
+    border: 0.125rem #7c37aa solid;
+    background-color: #5f2c82;
+    border-radius: 0.625rem;
+    margin: 0 0.3125rem 0.3125rem 0.3125rem;
+    width: 96%;
+    height: 2.5rem;             /* 40px */
+}
+
+.input-block > span {
+    font-size: 1.875rem;        /* 30px */
+    position: absolute;
+    left: 0.3125rem;            /* 5px */
+    top: 0.3125rem;
+}
+
+.input-block input {
+    position: absolute;
+    right: 0;
+    width: 82%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;   /* 7px */
+    background-color: #2d6362;
+    font-size: 0.9375rem;       /* 15px */
+    padding-left: 0.3125rem;
+}
+
+.input-block input:focus-within {
+    background-color: rgb(29, 29, 29);
+    color: var(--text-color);
+}
+
+#buttons-block > #enter {
+    display: block;
+    margin: auto;
+    width: 96%;
+    padding: 0.625rem;          /* 10px */
+    font-size: 1em;
+    border: none;
+    border-radius: 0.3rem;   /* 5px */
+    background-color: #3f9b99;
+    color: white;
+}
+
+#buttons-block > #enter:hover {
+    cursor: pointer;
+    background-color: #2d6362;
+}
+
+span {
+    color: var(--text-color);
+}
+
+#forgot-pass-block {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    height: 2.5625rem;         
+    padding-top: 0.4375rem;     
+    width: 96%;
+    margin-top: 0.3125rem;      
+    text-align: center;
+    text-decoration: none;
+    border: 0.0625rem #7dc0bf solid;
+    border-radius: 0.3125rem;
+    color: #7dc0bf;
+}
+
+a:hover {
+    background-color: #377776;
+    border: none;
+}
+
+#email-icon {
+    font-size: 0.8125rem;
+    color: #7dc0bf;
+}
