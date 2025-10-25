@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/media-query.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <section id="login">
+        <div id="img"></div>
+        <form action="#" method="get" autocomplete="on">
+            <header id="header-block">
+                   <h1>Login</h1>
+                   <p>
+                       Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                   </p>
+            </header>
+
+            <div class="input-block">
+                <span class="material-icons">person</span>
+                <input type="email" name="email" id="email" placeholder="seu e-mail" required autocomplete="email">
+            </div>
+
+            <div class="input-block">
+                <span class="material-icons">key</span>
+                <input type="password" name="password" id="password" placeholder="sua senha" required minlength="8" maxlength="20" autocomplete="current-password">
+            </div>
+
+            <div id="buttons-block">
+                <button id="enter" type="submit">Entrar</button>
+            </div>
+            
+            
+            <div id="forgot-pass-block">
+                <a href="#">Esqueci a senha
+                    <span id="email-icon" class="material-icons">email</span>
+                </a>
+            </div>
+
+        </form>
+    </section>
+
+
+</body>
+</html>
